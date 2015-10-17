@@ -18,7 +18,7 @@ import com.jhlabs.image.AbstractBufferedImageOp;
 public class contest extends AbstractBufferedImageOp {
 
 	private float contrast = 1.5f; // default value;
-	private float brightness = 1.0f; // default value;
+	private float brightness = 1.0f; // 111default value;
 	
 	public static void main(String[] args) throws IOException {
 		contest briFilter = new contest();
